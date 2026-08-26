@@ -1,0 +1,224 @@
+{
+  "synonyms": {
+    "stomach ache": "abdominal pain",
+    "stomach pain": "abdominal pain",
+    "belly pain": "abdominal pain",
+    "high temperature": "fever",
+    "hot body": "fever",
+    "throwing up": "vomiting",
+    "puking": "vomiting",
+    "loose motions": "diarrhea",
+    "loose motion": "diarrhea",
+    "watery stool": "diarrhea",
+    "tired": "fatigue",
+    "exhausted": "fatigue",
+    "no energy": "fatigue",
+    "blocked nose": "congestion",
+    "stuffy nose": "congestion",
+    "runny nose": "rhinorrhea",
+    "itchy skin": "itching",
+    "red skin": "redness",
+    "skin redness": "redness",
+    "breathing difficulty": "shortness of breath",
+    "hard to breathe": "shortness of breath",
+    "cant breathe": "shortness of breath",
+    "sore throat": "throat pain",
+    "throat pain": "sore throat",
+    "head pain": "headache",
+    "body pain": "body ache",
+    "body aches": "body ache",
+    "muscle pain": "body ache",
+    "joint pain": "body ache",
+    "chills": "shivering",
+    "cough": "coughing",
+    "eye redness": "red eyes",
+    "eye itch": "itchy eyes",
+    "skin rash": "rash",
+    "burning eyes": "eye irritation",
+    "watery eyes": "eye discharge"
+  },
+  "conditions": [
+    {
+      "name": "Common Cold",
+      "simple_name": "Common Cold",
+      "medical_name": "Viral Upper Respiratory Tract Infection",
+      "symptoms": ["runny nose", "congestion", "sore throat", "coughing", "sneezing", "mild fever", "headache", "body ache"],
+      "urgency": "Low",
+      "precautions": [
+        "Stay hydrated with warm fluids",
+        "Get adequate rest",
+        "Use steam inhalation for congestion",
+        "Avoid cold beverages and exposure",
+        "Consult a doctor if symptoms persist beyond 7-10 days"
+      ]
+    },
+    {
+      "name": "Influenza",
+      "simple_name": "Flu",
+      "medical_name": "Influenza",
+      "symptoms": ["fever", "body ache", "fatigue", "coughing", "sore throat", "headache", "chills", "shivering"],
+      "urgency": "Medium",
+      "precautions": [
+        "Rest as much as possible",
+        "Drink plenty of fluids",
+        "Monitor temperature regularly",
+        "Isolate from others to prevent spread",
+        "Seek medical care if breathing becomes difficult"
+      ]
+    },
+    {
+      "name": "COVID-19",
+      "simple_name": "COVID-19 Infection",
+      "medical_name": "SARS-CoV-2 Infection",
+      "symptoms": ["fever", "coughing", "fatigue", "shortness of breath", "loss of taste", "loss of smell", "sore throat", "body ache", "headache"],
+      "urgency": "Medium",
+      "precautions": [
+        "Isolate to prevent spreading infection",
+        "Monitor oxygen levels if possible",
+        "Stay hydrated and rest",
+        "Wear a mask around others",
+        "Seek urgent care if breathing difficulty develops"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "simple_name": "Migraine Headache",
+      "medical_name": "Migraine",
+      "symptoms": ["headache", "nausea", "vomiting", "sensitivity to light", "sensitivity to sound", "blurred vision"],
+      "urgency": "Low",
+      "precautions": [
+        "Rest in a quiet, dark room",
+        "Stay hydrated",
+        "Avoid known triggers such as bright light or strong smells",
+        "Apply a cold compress to the forehead",
+        "Consult a doctor if migraines are frequent or severe"
+      ]
+    },
+    {
+      "name": "Food Poisoning",
+      "simple_name": "Food Poisoning",
+      "medical_name": "Foodborne Illness",
+      "symptoms": ["vomiting", "diarrhea", "abdominal pain", "nausea", "fever", "fatigue"],
+      "urgency": "Medium",
+      "precautions": [
+        "Stay hydrated with oral rehydration solutions",
+        "Eat light, bland food once tolerated",
+        "Avoid dairy and oily food temporarily",
+        "Rest and monitor symptoms",
+        "Seek medical care if vomiting/diarrhea persists over 24 hours or blood appears"
+      ]
+    },
+    {
+      "name": "Gastritis",
+      "simple_name": "Stomach Lining Irritation",
+      "medical_name": "Gastritis",
+      "symptoms": ["abdominal pain", "nausea", "vomiting", "bloating", "loss of appetite", "burning sensation"],
+      "urgency": "Low",
+      "precautions": [
+        "Avoid spicy and oily food",
+        "Eat smaller, more frequent meals",
+        "Avoid alcohol and NSAIDs",
+        "Stay hydrated",
+        "Consult a doctor if pain is persistent or severe"
+      ]
+    },
+    {
+      "name": "Dengue",
+      "simple_name": "Dengue Fever",
+      "medical_name": "Dengue Viral Infection",
+      "symptoms": ["high fever", "fever", "body ache", "headache", "rash", "fatigue", "joint pain", "nausea"],
+      "urgency": "High",
+      "precautions": [
+        "Stay hydrated and monitor for warning signs",
+        "Avoid NSAIDs like ibuprofen or aspirin",
+        "Use paracetamol only as directed by a physician",
+        "Watch for bleeding, severe abdominal pain, or persistent vomiting",
+        "Seek immediate medical attention for worsening symptoms"
+      ]
+    },
+    {
+      "name": "Malaria",
+      "simple_name": "Malaria",
+      "medical_name": "Malaria (Plasmodium Infection)",
+      "symptoms": ["fever", "chills", "shivering", "headache", "vomiting", "fatigue", "body ache"],
+      "urgency": "High",
+      "precautions": [
+        "Seek prompt medical testing and treatment",
+        "Stay hydrated",
+        "Rest and monitor temperature closely",
+        "Use mosquito protection to avoid further exposure",
+        "Do not self-medicate with antimalarials"
+      ]
+    },
+    {
+      "name": "Typhoid",
+      "simple_name": "Typhoid Fever",
+      "medical_name": "Typhoid Fever (Salmonella typhi Infection)",
+      "symptoms": ["fever", "abdominal pain", "fatigue", "headache", "loss of appetite", "diarrhea", "body ache"],
+      "urgency": "High",
+      "precautions": [
+        "Seek medical diagnosis and appropriate antibiotic treatment",
+        "Stay hydrated with clean, safe water",
+        "Eat easily digestible food",
+        "Rest adequately",
+        "Practice good hygiene to prevent spread"
+      ]
+    },
+    {
+      "name": "Allergic Reaction",
+      "simple_name": "Allergic Reaction",
+      "medical_name": "Allergic Reaction",
+      "symptoms": ["itching", "rash", "redness", "swelling", "sneezing", "watery eyes", "hives"],
+      "urgency": "Medium",
+      "precautions": [
+        "Avoid the suspected allergen or trigger",
+        "Use an antihistamine if previously advised by a doctor",
+        "Apply a cool compress to affected skin",
+        "Monitor for worsening swelling or breathing difficulty",
+        "Seek emergency care if swelling spreads to the face or throat"
+      ]
+    },
+    {
+      "name": "Contact Dermatitis",
+      "simple_name": "Skin Irritation from Contact",
+      "medical_name": "Contact Dermatitis",
+      "symptoms": ["rash", "itching", "redness", "dry skin", "burning sensation", "swelling"],
+      "urgency": "Low",
+      "precautions": [
+        "Avoid the irritant or allergen source",
+        "Keep the affected area clean and dry",
+        "Apply a soothing, fragrance-free moisturizer",
+        "Avoid scratching the area",
+        "Consult a doctor if the rash spreads or blisters"
+      ]
+    },
+    {
+      "name": "Conjunctivitis",
+      "simple_name": "Eye Infection / Pink Eye",
+      "medical_name": "Conjunctivitis",
+      "symptoms": ["red eyes", "itchy eyes", "eye discharge", "eye irritation", "swelling", "watery eyes"],
+      "urgency": "Low",
+      "precautions": [
+        "Avoid touching or rubbing the eyes",
+        "Wash hands frequently",
+        "Use a clean, cool compress on the eyes",
+        "Avoid sharing towels or pillows",
+        "Consult a doctor if vision is affected or pain worsens"
+      ]
+    },
+    {
+      "name": "Fungal Skin Infection",
+      "simple_name": "Fungal Skin Infection",
+      "medical_name": "Dermatophytosis (Tinea)",
+      "symptoms": ["itching", "redness", "rash", "scaly skin", "ring-shaped patch", "burning sensation"],
+      "urgency": "Low",
+      "precautions": [
+        "Keep the affected area clean and dry",
+        "Avoid tight or damp clothing over the area",
+        "Avoid sharing clothing or towels",
+        "Use an over-the-counter antifungal cream if appropriate",
+        "Consult a doctor if the infection spreads or does not improve"
+      ]
+    }
+  ]
+}

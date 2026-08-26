@@ -1,0 +1,7 @@
+/* RegisterPage reuses the shared .auth-page / .auth-card styles from
+   LoginPage.css. This file is reserved for any register-specific
+   overrides. */
+
+.auth-card h1 {
+  letter-spacing: -0.01em;
+}
