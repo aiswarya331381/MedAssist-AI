@@ -1,0 +1,14 @@
+﻿{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "You are MedAssist AI. Analyze these symptoms and return ONLY valid JSON with exactly these keys: conditions, urgency, risk_flags, precautions, disclaimer. Symptoms: headache and fever. Severity: moderate. Duration: 2 days. For conditions use objects with name, simple_name, confidence, reason. Urgency must be Low, Medium, High, or Critical. Give safe precautions and include this exact disclaimer: This analysis is AI-assisted and not a medical diagnosis. Please consult a qualified healthcare professional."
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "responseMimeType": "application/json"
+  }
+}

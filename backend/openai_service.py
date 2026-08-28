@@ -106,6 +106,10 @@ def analyze_with_openai(symptoms, severity, duration, image_bytes=None, image_mi
     api_key = os.environ.get("OPENAI_API_KEY")
     model = os.environ.get("OPENAI_MODEL")
 
+    print("[DEBUG] OpenAI model:", model)
+    print("[DEBUG] OpenAI key loaded:", bool(api_key))
+    print("[DEBUG] OpenAI key starts with:", api_key[:7] if api_key else None)
+    print("[DEBUG] OpenAI key ends with:", api_key[-4:] if api_key else None)
     if not api_key or not model:
         raise RuntimeError("OpenAI is not configured.")
 

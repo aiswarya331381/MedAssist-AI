@@ -11,6 +11,7 @@ const URGENCY_STYLES = {
 
 const MODE_BADGE = {
   ai: { label: "AI Analysis (OpenAI)", className: "badge-ai" },
+  gemini: { label: "AI Analysis (Gemini)", className: "badge-ai" },
   openrouter: { label: "AI Analysis (OpenRouter)", className: "badge-ai" },
   offline_fallback: { label: "Offline Analysis", className: "badge-offline" },
 };
