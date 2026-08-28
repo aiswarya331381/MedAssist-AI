@@ -40,7 +40,7 @@ An AI-powered healthcare assistance platform for preliminary symptom screening, 
 * python-dotenv
 
 ### AI
-
+* Gemini API
 * OpenAI API
 * OpenRouter API
 * Local Rule-Based Fallback Engine
